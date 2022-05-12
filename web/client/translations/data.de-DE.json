@@ -525,6 +525,8 @@
             "toggleGroupVisibility": "Gruppensichtbarkeit umschalten",
             "displayLegendAndTools": "Legende einblenden",
             "zoomToLayerExtent": "Zoome auf Ausdehung der Ebene",
+            "addAnnotations": "Anmerkungen hinzufügen",
+            "editAnnotations": "Anmerkungen bearbeiten",
             "addLayer": "Ebene hinzufügen",
             "addLayerToGroup": "Ebene zur ausgewählten Gruppe hinzufügen",
             "addGroup": "Gruppe hinzufügen",
@@ -575,6 +577,7 @@
             "filterIconDisabled": "Ebenenfilter aktivieren",
             "notVisibleZoomIn": "Die Ebene ist nicht sichtbar, da sie außerhalb der Auflösungsgrenzen liegt. Zoomen Sie hinein, um die Ebene anzuzeigen",
             "notVisibleZoomOut": "Die Ebene ist nicht sichtbar, da sie außerhalb der Auflösungsgrenzen liegt. Verkleinern Sie die Ansicht, um die Ebene anzuzeigen",
+            "notVisibleSwitchTo3D": "Wechseln Sie in den 3D-Kartenmodus, um diesen Layer anzuzeigen",
             "refreshOptions": {
                 "bbox": "BBOX aktualisieren",
                 "search": "Suchoptionen aktualisieren",
@@ -693,7 +696,8 @@
             "previewFormatUnsupported": "Nicht unterstütztes Format für die Vorschau",
             "projection": "Koordinatensystem",
             "projectionmismatch": "Nichtübereinstimmung des Koordinatensystems zwischen gedruckter und Bildschirmkarte",
-            "graticule": "Raster mit Etiketten hinzufügen"
+            "graticule": "Raster mit Etiketten hinzufügen",
+            "additionalLayers": "Überlagerungen einschließen"
         },
         "backgroundSwitcher":{
             "tooltip": "Wähle Hintergrund"
@@ -3505,6 +3509,9 @@
             "noDataForPosition": "keine Street-View-Daten für diese Position",
             "unknownError": "Unbekannter Fehler, siehe Konsole"
           }
+        },
+        "sidebarMenu": {
+          "showMoreItems": "Weitere Elemente anzeigen"
         }
     }
 }

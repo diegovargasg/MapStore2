@@ -487,6 +487,8 @@
             "toggleGroupVisibility": "Toggle group visibility",
             "displayLegendAndTools": "Display legend",
             "zoomToLayerExtent": "Zoom to layer extent",
+            "addAnnotations": "Add annotations",
+            "editAnnotations": "Edit annotations",
             "addLayer": "Add layer",
             "addLayerToGroup": "Add layer to selected group",
             "addGroup": "Add group",
@@ -536,6 +538,7 @@
             "filterIconDisabled": "Enable layer filter",
             "notVisibleZoomIn": "The layer is not visible because it is outside the resolution limits. Zoom in to show the layer",
             "notVisibleZoomOut": "The layer is not visible because it is outside the resolution limits. Zoom out to show the layer",
+            "notVisibleSwitchTo3D": "Switch to 3D map mode in order to see this layer",
             "refreshOptions": {
                 "bbox": "Update BBOX",
                 "search": "Update search options",
@@ -654,7 +657,8 @@
             "previewFormatUnsupported": "Unsupported format for preview",
             "projection": "Coordinates System",
             "projectionmismatch": "Coordinate system mismatch among printed and screen map",
-            "graticule": "add grid with labels"
+            "graticule": "add grid with labels",
+            "additionalLayers": "Include overlays"
         },
         "backgroundSwitcher":{
             "tooltip": "Select Background"
@@ -3478,6 +3482,9 @@
             "noDataForPosition": "no street-view data for this position",
             "unknownError": "unknown error, see console"
           }
+        },
+        "sidebarMenu": {
+          "showMoreItems": "Show more items"
         }
     }
 }
